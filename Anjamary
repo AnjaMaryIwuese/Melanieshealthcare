@@ -1,1 +1,69 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melanie's Healthcare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #2a9d8f;
+            color: white;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        p {
+            font-size: 18px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background: #264653;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #e76f51;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background: #d65a3d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Melanie's Healthcare</h1>
+        <p>Your trusted source for quality health solutions</p>
+    </header>
+
+    <section>
+        <h2>About Us</h2>
+        <p>We provide innovative healthcare services and products designed to improve lives and promote wellness.</p>
+        <a class="btn" href="mailto:your-email@example.com">Contact Us</a>
+    </section>
+
+    <footer>
+        <p>© 2025 Melanie's Healthcare. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
